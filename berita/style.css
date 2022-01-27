@@ -2,6 +2,25 @@
 
 /* root styling */
 
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: var(--white);
+}
+
+htmL::-webkit-scrollbar-thumb {
+    background-color: #8037ce;
+}
+
 :root {
     --light: #f8f9fa;
     --secondary: #adb5bd;
@@ -106,6 +125,7 @@ a {
 
 .d-flex {
     display: flex;
+    align-items: center;
 }
 
 .flex-wrap {
@@ -210,6 +230,11 @@ a {
     font-family: 'Poppins', sans-serif;
 }
 
+
+/* .navbar p {
+    font-size: 16px;
+} */
+
 .nav-link:hover {
     color: var(--primary-color);
 }
@@ -242,7 +267,7 @@ a {
 /* ----------- Main Section ---------- */
 
 #site-main {
-    margin-top: 8em;
+    margin-top: 12em;
 }
 
 #posts {
